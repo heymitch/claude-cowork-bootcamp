@@ -1,6 +1,6 @@
 ---
 name: meeting-debrief
-description: Quick post-meeting capture. What was decided, what are the action items, what's the follow-up. Takes 2 minutes. Say "debrief my meeting", "I just finished my call with [person]", "meeting debrief", "capture meeting notes", "what just happened in that meeting".
+description: Quick post-meeting capture — or batch-debrief your whole day. What was decided, action items, follow-up. Say "debrief my meeting", "I just finished my call with [person]", "debrief my day", "end of day debrief", "catch up on today's meetings".
 user-invocable: true
 ---
 
@@ -85,10 +85,31 @@ Append to `.coworker/logs/activity.md`:
 - Filed to: projects/[project-name]/
 ```
 
+## Batch Mode
+
+When triggered at end of day (manually or via scheduled task):
+
+1. Pull today's calendar — list all meetings that happened
+2. Check `projects/` and `output/debriefs/` for existing debriefs from today
+3. Show the gap: "You had 5 meetings today. I have debriefs for 2. Want to quick-capture the other 3?"
+4. Run through each un-debriefed meeting — same 3 questions, but faster:
+   - Show the meeting name + attendees as context
+   - Accept "skip" to move past meetings that don't need capture
+   - Accept "nothing" for any question to keep it moving
+5. File all debriefs, then offer batch downstream: "Want me to scan these for content angles?" or "Draft follow-ups for any with action items?"
+
+Batch mode should take ~5 minutes for 3-4 meetings. Speed is everything — this runs at 5:30pm when they want to close their laptop, not write essays.
+
+**Trigger phrases for batch:**
+- "debrief my day"
+- "catch up on today's meetings"
+- "end of day debrief"
+- "any meetings I missed debriefing?"
+
 ## Rules
 
-- **Two minutes max.** Three questions, fast answers, file it. Don't turn this into an interview.
-- **Accept short answers.** "Nothing decided" and "I'll email them Friday" are complete answers.
+- **Two minutes per meeting, five minutes for a full day.** Fast answers, file it. Not an interview.
+- **Accept short answers.** "Nothing decided" and "I'll email them Friday" are complete answers. "Skip" is valid.
 - **Never fabricate action items.** Only capture what the user actually says.
 - **Offer downstream skills, don't auto-run them.** The debrief is the capture. Follow-up and content are separate decisions.
 - **File to the right project.** If there's a matching project in the index, use it. New contacts can create new project folders.
