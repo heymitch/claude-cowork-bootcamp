@@ -1,0 +1,10 @@
+{
+  "name": "ai-hunter-v2",
+  "version": "2.0.0",
+  "description": "Deterministic AI pattern detection with 200+ experiments of research baked in. Scores your writing 0-100.",
+  "author": {
+    "name": "Mitch Harris"
+  },
+  "license": "UNLICENSED",
+  "keywords": ["ai-detection", "writing", "quality"]
+}

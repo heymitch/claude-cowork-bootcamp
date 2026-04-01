@@ -1,0 +1,15 @@
+{
+  "name": "voice-lab",
+  "version": "2.0.0",
+  "description": "Train your AI to write like you — 10 modules covering Voice DNA, archetypes, vocabulary, sentence patterns, quirks, tone grid, and Voice Template compilation. Reads from and writes to your Coworker workspace (training/voice/). Based on the Digital Writers Voice Lab by Nicolas Cole and Dickie Bush.",
+  "author": {
+    "name": "Mitch Harris"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "cowork",
+    "bootcamp",
+    "session-2",
+    "voice-training"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "file-master",
+  "version": "2.0.0",
+  "description": "Your AI file organization brain. Organizes files using GTD methodology, ingests new material into your knowledge index, searches across everything you've saved, and shows workspace status. Built for the Coworker workspace.",
+  "author": {
+    "name": "Mitch Harris"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "keywords": [
+    "cowork",
+    "bootcamp",
+    "session-1"
+  ]
+}
