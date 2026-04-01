@@ -1,0 +1,7 @@
+{
+  "name": "newsletter-outliner",
+  "version": "1.0.0",
+  "description": "Newsletter outline builder with editorial intelligence. Assesses topics, chooses angles, picks formats, and builds publish-ready outlines with real hooks — not placeholder text. Trained on editorial workflow.",
+  "author": "Cowork Bootcamp",
+  "license": "UNLICENSED"
+}
