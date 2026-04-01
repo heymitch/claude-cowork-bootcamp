@@ -106,6 +106,19 @@
         "quality",
         "ai-detection"
       ]
+    },
+    {
+      "name": "morning-brief",
+      "source": "./plugins/morning-brief",
+      "description": "Daily morning briefing \u2014 calendar, email triage, meeting context, deep work windows. Schedule at 7am.",
+      "version": "2.0.0",
+      "category": "bonus",
+      "tags": [
+        "session-3",
+        "calendar",
+        "scheduling",
+        "productivity"
+      ]
     }
   ]
 }
