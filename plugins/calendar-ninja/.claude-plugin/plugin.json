@@ -1,0 +1,14 @@
+{
+  "name": "calendar-ninja",
+  "version": "2.0.0",
+  "description": "Your full calendar operations suite. Meeting prep with context from Gmail + Slack + projects, post-meeting debrief capture, deep work time blocking, action item tracking, and follow-up email drafting. Manages your whole day, not just one meeting.",
+  "author": {
+    "name": "Mitch Harris"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "cowork",
+    "bootcamp",
+    "session-3"
+  ]
+}

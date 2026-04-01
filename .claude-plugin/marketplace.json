@@ -5,7 +5,7 @@
     "email": "mitch@ship30for30.com"
   },
   "metadata": {
-    "description": "Claude Cowork Bootcamp 2.0 — All session plugins, bonuses, and tools. 6 sessions, 70+ skills.",
+    "description": "Claude Cowork Bootcamp 2.0 \u2014 All session plugins, bonuses, and tools. 6 sessions, 70+ skills.",
     "version": "2.0.0",
     "pluginRoot": "./plugins"
   },
@@ -16,7 +16,11 @@
       "description": "Organize, ingest, search, and track files in your Coworker workspace. Session 1 plugin.",
       "version": "1.0.0",
       "category": "session",
-      "tags": ["session-1", "files", "organization"]
+      "tags": [
+        "session-1",
+        "files",
+        "organization"
+      ]
     },
     {
       "name": "content-creator",
@@ -24,15 +28,25 @@
       "description": "Write content for any platform in your voice. Newsletters, LinkedIn, Twitter, YouTube, Substack Notes. Session 2 plugin.",
       "version": "2.0.0",
       "category": "session",
-      "tags": ["session-2", "content", "writing"]
+      "tags": [
+        "session-2",
+        "content",
+        "writing"
+      ]
     },
     {
-      "name": "meeting-prep",
-      "source": "./plugins/meeting-prep",
-      "description": "Pre-meeting briefs from calendar, email, and Slack. Reads your workspace for project context. Session 3 plugin.",
+      "name": "calendar-ninja",
+      "source": "./plugins/calendar-ninja",
+      "description": "Full calendar operations \u2014 meeting prep, post-meeting debrief, deep work blocking, action tracking, follow-up emails. Session 3 plugin.",
       "version": "2.0.0",
       "category": "session",
-      "tags": ["session-3", "meetings", "calendar", "email"]
+      "tags": [
+        "session-3",
+        "calendar",
+        "meetings",
+        "deep-work",
+        "scheduling"
+      ]
     },
     {
       "name": "voice-lab",
@@ -40,7 +54,11 @@
       "description": "Train your AI to write like you. Voice DNA, archetypes, vocabulary, tone grid, Voice Template.",
       "version": "2.0.0",
       "category": "bonus",
-      "tags": ["session-2", "voice", "training"]
+      "tags": [
+        "session-2",
+        "voice",
+        "training"
+      ]
     },
     {
       "name": "repurposer",
@@ -48,7 +66,11 @@
       "description": "Extract short-form social content from long-form newsletters.",
       "version": "1.0.0",
       "category": "bonus",
-      "tags": ["session-2", "content", "repurposing"]
+      "tags": [
+        "session-2",
+        "content",
+        "repurposing"
+      ]
     },
     {
       "name": "meeting-to-content",
@@ -56,7 +78,11 @@
       "description": "Turn today's meetings into content. Extracts insights, interviews you, drafts in your voice.",
       "version": "1.0.0",
       "category": "bonus",
-      "tags": ["session-3", "meetings", "content"]
+      "tags": [
+        "session-3",
+        "meetings",
+        "content"
+      ]
     },
     {
       "name": "follow-up-writer",
@@ -64,7 +90,11 @@
       "description": "Draft personalized meeting follow-up emails with action items and next steps.",
       "version": "1.0.0",
       "category": "bonus",
-      "tags": ["session-3", "meetings", "email"]
+      "tags": [
+        "session-3",
+        "meetings",
+        "email"
+      ]
     },
     {
       "name": "ai-hunter-v2",
@@ -72,7 +102,10 @@
       "description": "Detect and fix AI patterns in your writing. Surgical rewrites with verification.",
       "version": "2.0.0",
       "category": "bonus",
-      "tags": ["quality", "ai-detection"]
+      "tags": [
+        "quality",
+        "ai-detection"
+      ]
     }
   ]
 }
