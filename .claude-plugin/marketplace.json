@@ -119,19 +119,6 @@
         "scheduling",
         "productivity"
       ]
-    },
-    {
-      "name": "newsletter-outliner",
-      "source": "./plugins/newsletter-outliner",
-      "description": "Newsletter outline builder with editorial intelligence. Assesses topics, chooses angles, builds publish-ready outlines with real hooks.",
-      "version": "1.0.0",
-      "category": "bonus",
-      "tags": [
-        "content",
-        "newsletter",
-        "writing",
-        "editorial"
-      ]
     }
   ]
 }
