@@ -145,6 +145,19 @@
         "ebooks",
         "landing-pages"
       ]
+    },
+    {
+      "name": "design-secrets",
+      "source": "./plugins/design-secrets",
+      "description": "Your personal design aesthetic baked into Cowork. Upload brand assets, extract your visual identity, apply it to everything.",
+      "version": "1.0.0",
+      "category": "bonus",
+      "tags": [
+        "design",
+        "branding",
+        "visual",
+        "figma"
+      ]
     }
   ]
 }
