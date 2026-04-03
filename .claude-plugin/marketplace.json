@@ -119,6 +119,32 @@
         "scheduling",
         "productivity"
       ]
+    },
+    {
+      "name": "project-kit",
+      "source": "./plugins/project-kit",
+      "description": "One meeting becomes a complete engagement. Transcript extraction, strategy, proposals, decks, project planning, social content.",
+      "version": "3.0.0",
+      "category": "bonus",
+      "tags": [
+        "session-5",
+        "projects",
+        "proposals",
+        "strategy"
+      ]
+    },
+    {
+      "name": "digital-product",
+      "source": "./plugins/digital-product",
+      "description": "Build a digital product from idea to live sale. Idea finding, validation, outlining, writing, ebook design, landing pages, launch kit.",
+      "version": "3.0.0",
+      "category": "bonus",
+      "tags": [
+        "session-5",
+        "products",
+        "ebooks",
+        "landing-pages"
+      ]
     }
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "name": "digital-product",
+  "version": "3.1.0",
+  "description": "Build a digital product from idea to live sale — find ideas, design strategy with Write the Course frameworks, validate demand, outline, write, design a styled ebook, deploy a landing page, and launch with multi-platform promotion.",
+  "author": {
+    "name": "Mitch Harris"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "cowork",
+    "bootcamp",
+    "session-5"
+  ]
+}

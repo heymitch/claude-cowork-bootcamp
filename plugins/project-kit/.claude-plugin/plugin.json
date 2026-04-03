@@ -1,0 +1,14 @@
+{
+  "name": "project-kit",
+  "version": "3.1.0",
+  "description": "One meeting becomes a complete engagement — extract transcripts, map client pipelines, build custom proposals, generate presentations, plan execution with Rocks and Kanban, and create social content. Reads business context from .coworker/index.md and writes all outputs to projects/[client-name]/ in the Coworker workspace.",
+  "author": {
+    "name": "Mitch Harris"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "cowork",
+    "bootcamp",
+    "session-4"
+  ]
+}
