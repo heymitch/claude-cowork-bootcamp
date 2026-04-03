@@ -158,34 +158,6 @@
         "visual",
         "figma"
       ]
-    },
-    {
-      "name": "content-ai-starter-pack",
-      "source": "./plugins/content-ai-starter-pack",
-      "description": "LinkedIn AI (10 post formats), profile optimizer, engagement assistant, content calendar, AI pattern hunter. Expiring bonus.",
-      "version": "1.0.0",
-      "category": "bonus",
-      "tags": [
-        "linkedin",
-        "content",
-        "social",
-        "ai-detection",
-        "expiring"
-      ]
-    },
-    {
-      "name": "full-stack-writer",
-      "source": "./plugins/full-stack-writer",
-      "description": "The complete writing system: newsletters, LinkedIn, X, email sequences. Idea generation, editorial calendar, voice-matched drafts, cross-platform repurposing.",
-      "version": "1.0.0",
-      "category": "bonus",
-      "tags": [
-        "writing",
-        "newsletter",
-        "content",
-        "email",
-        "expiring"
-      ]
     }
   ]
 }
