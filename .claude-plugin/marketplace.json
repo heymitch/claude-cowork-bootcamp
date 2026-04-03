@@ -172,6 +172,20 @@
         "ai-detection",
         "expiring"
       ]
+    },
+    {
+      "name": "full-stack-writer",
+      "source": "./plugins/full-stack-writer",
+      "description": "The complete writing system: newsletters, LinkedIn, X, email sequences. Idea generation, editorial calendar, voice-matched drafts, cross-platform repurposing.",
+      "version": "1.0.0",
+      "category": "bonus",
+      "tags": [
+        "writing",
+        "newsletter",
+        "content",
+        "email",
+        "expiring"
+      ]
     }
   ]
 }
