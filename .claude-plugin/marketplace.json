@@ -158,6 +158,20 @@
         "visual",
         "figma"
       ]
+    },
+    {
+      "name": "content-ai-starter-pack",
+      "source": "./plugins/content-ai-starter-pack",
+      "description": "LinkedIn AI (10 post formats), profile optimizer, engagement assistant, content calendar, AI pattern hunter. Expiring bonus.",
+      "version": "1.0.0",
+      "category": "bonus",
+      "tags": [
+        "linkedin",
+        "content",
+        "social",
+        "ai-detection",
+        "expiring"
+      ]
     }
   ]
 }
