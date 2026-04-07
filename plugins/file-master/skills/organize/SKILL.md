@@ -1,12 +1,6 @@
 ---
 name: organizing-files
-description: >
-  File Master — index-aware file organizer. Reads .coworker/index.md to
-  understand existing projects and context before organizing. Files go to
-  matching projects first, type-based folders second, inbox/ as fallback.
-  Updates the index after every move. Triggered by "organize my files",
-  "clean up this folder", "sort these files", "help me organize", "file
-  cleanup", "tidy up", "weekly cleanup".
+description: File Master — index-aware file organizer. Reads .coworker/index.md to understand existing projects and context before organizing. Files go to matching projects first, type-based folders second, inbox/ as fallback. Updates the index after every move. Triggered by "organize my files", "clean up this folder", "sort these files", "help me organize", "file cleanup", "tidy up", "weekly cleanup".
 user-invocable: true
 ---
 

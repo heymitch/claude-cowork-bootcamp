@@ -1,8 +1,6 @@
 ---
 name: setup
-description: >
-  First-time setup for the Content Creator. Creates your workspace so the
-  coach works in your voice. Say "setup", "get started", or "first time setup".
+description: First-time setup for the Content Creator. Creates your workspace so the coach works in your voice. Say "setup", "get started", or "first time setup".
 user-invocable: true
 disable-model-invocation: true
 ---

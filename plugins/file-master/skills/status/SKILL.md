@@ -1,11 +1,6 @@
 ---
 name: workspace-status
-description: >
-  Quick status check — shows what's in your workspace folder, recent
-  activity from logs, and your config summary. A snapshot of your
-  workspace at a glance. Triggered by "status", "what's in my folder",
-  "show me my files", "workspace overview", "what have we done",
-  "catch me up".
+description: Quick status check — shows what's in your workspace folder, recent activity from logs, and your config summary. A snapshot of your workspace at a glance. Triggered by "status", "what's in my folder", "show me my files", "workspace overview", "what have we done", "catch me up".
 user-invocable: true
 ---
 
