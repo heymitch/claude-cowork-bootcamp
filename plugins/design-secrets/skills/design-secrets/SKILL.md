@@ -14,6 +14,7 @@ Routes design intent to the right sub-skill. The goal: every visual produced by 
 |--------|----------|
 | "Set up my design" / "Extract my brand" / "Analyze my brand" / "Upload my brand assets" / "Here's my logo" / "Here's my website" | `skills/brand-extractor/SKILL.md` |
 | "Design a [thing]" / "Make this look good" / "Make this look branded" / "Generate a visual" / "Create a graphic" / "Styled PDF" / "Branded image" / "Create a landing page" / "Make a slide" | `skills/design-generator/SKILL.md` |
+| "Make a diagram" / "Flowchart" / "Infographic" / "Visualize this" / "Chart" / "Comparison table" / "Process map" | `skills/visual-designer/SKILL.md` |
 | "Push to Figma" / "Create in Figma" / "Figma design system" / "Set up my Figma" / "Sync design to Figma" / "Build a component library" | `skills/figma-guide/SKILL.md` |
 
 ## Preflight
