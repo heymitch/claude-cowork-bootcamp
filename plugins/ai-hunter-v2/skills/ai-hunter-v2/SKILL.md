@@ -1,6 +1,7 @@
 ---
 name: ai-hunter-v2
 description: Deterministic AI pattern scanner built from 200+ experiments. Catches negative parallelism, contrast framing, throat-clearing, cringe questions, rule of three, dashes, corporate jargon, and flat rhythm. Scores your writing 0-100 with exact locations and rewrite direction. Say "ai hunter", "scan for ai patterns", "score my writing", "check for ai", or "audit this for ai" to activate.
+user-invocable: true
 ---
 
 # AI Hunter 2.0

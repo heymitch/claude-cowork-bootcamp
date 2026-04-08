@@ -1,6 +1,7 @@
 ---
 name: ingesting-files
 description: Ingests files into the Coworker knowledge index. Accepts any file — writing samples, company docs, prompts, references — auto-detects the type, files it correctly, tags it with frontmatter metadata, and updates the master index. Trigger phrases include "ingest this", "train on this", "save this reference", "index this file", "add this to my training data".
+user-invocable: true
 ---
 
 # Ingest

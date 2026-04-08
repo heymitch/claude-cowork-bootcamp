@@ -1,11 +1,7 @@
 ---
 name: repurposer
-description: >
-  Extracts short-form social content from a long-form newsletter.
-  Trigger phrases: "repurpose my newsletter", "extract notes from this",
-  "turn my newsletter into posts", "pull content from this",
-  "generate social posts from my newsletter", "repurpose this",
-  "create notes from this newsletter", "extract short-form content".
+description: Extracts short-form social content from a long-form newsletter. Trigger phrases — "repurpose my newsletter", "extract notes from this", "turn my newsletter into posts", "pull content from this", "generate social posts from my newsletter", "repurpose this", "create notes from this newsletter", "extract short-form content".
+user-invocable: true
 ---
 
 # Repurposer

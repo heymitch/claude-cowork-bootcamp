@@ -1,6 +1,7 @@
 ---
 name: searching-index
 description: Searches the Coworker knowledge index for files by type, tags, content, or date. Returns matching entries with paths so other skills or the user can load them. Trigger phrases include "search for", "find", "what do you know about", "show me my", "any files about", "look up".
+user-invocable: true
 ---
 
 # Search
