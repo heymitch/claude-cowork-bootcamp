@@ -158,6 +158,19 @@
         "visual",
         "figma"
       ]
+    },
+    {
+      "name": "skill-maker",
+      "source": "./plugins/skill-maker",
+      "description": "Build any skill you need, forever. Designs, builds, tests, and packages custom agent skills based on your business context. Session 4 plugin.",
+      "version": "2.0.0",
+      "category": "session",
+      "tags": [
+        "session-4",
+        "skills",
+        "building",
+        "packaging"
+      ]
     }
   ]
 }

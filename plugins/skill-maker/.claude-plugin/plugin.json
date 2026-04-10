@@ -1,0 +1,8 @@
+{
+  "name": "skill-maker",
+  "version": "2.0.0",
+  "description": "Build any skill you need, forever — the meta-skill that designs, builds, tests, and packages custom agent skills based on your business context.",
+  "author": { "name": "Speakeasy" },
+  "license": "UNLICENSED",
+  "keywords": ["cowork", "bootcamp", "session-6"]
+}
