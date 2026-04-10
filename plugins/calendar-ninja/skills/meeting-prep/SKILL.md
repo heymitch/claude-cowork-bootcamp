@@ -1,7 +1,7 @@
 ---
 name: meeting-prep
 description: Never walk into a meeting cold. Prep for meetings, gather context, build briefs, track action items, write follow-ups. Say "prep me for my meeting with [person]", "brief me on [person]", "gather context", "find everything about [person]", "action items", "what's open from my meetings", "write follow-up", or "meeting recap".
-user-invocable: false
+user-invocable: true
 ---
 
 # Meeting Prep
