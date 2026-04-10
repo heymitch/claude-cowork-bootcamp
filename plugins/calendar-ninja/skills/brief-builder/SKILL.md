@@ -29,7 +29,7 @@ Read `../meeting-prep/references/brief-template.md` for the standard brief forma
 
 Fill in each section from the raw context:
 
-- **Header block** — Meeting details from calendar or user input (who, when, where, attendees)
+- **Header block** — Meeting details from calendar or user input (who, when, where, attendees). **Always display times in the user's actual timezone** — pull it from `gcal_list_calendars` and use the `timeZone` field from the primary calendar. Never render times in UTC or a hardcoded zone like `America/New_York`.
 - **Relationship summary** — Piece together from email history and meeting records. When did you first connect? What have you done together?
 - **Last interaction** — Find the most recent touchpoint (email, call, meeting). Note the date, format, and what was discussed.
 - **Open items** — Extract action items from past meetings and emails. For each, note who owns it, when it was agreed, and whether it appears to be done (check for follow-up emails).

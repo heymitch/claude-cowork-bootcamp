@@ -16,7 +16,8 @@ Tell me what you need and I'll route to the right sub-skill.
 
 1. **Workspace context** — Read `.coworker/index.md` to check for active projects, references, and any existing meeting briefs or notes. Note any clients or projects listed under Active Projects — these inform person/company matching.
 2. **Connectors** — Scan available tools (Gmail, Slack, Drive, Fireflies, Calendar). Note what's connected. If zero: "No connectors found. I can still work with pasted notes, or I can walk you through connecting Gmail — it takes two clicks."
-3. **User identity** — As you gather context, infer the user's name, role, and company from their email signatures, calendar entries, and Slack profiles. No config file needed — the skill learns who you are from your data.
+3. **Detect the user's timezone** — Before any calendar operation, pull the user's Google Calendar settings and extract the `timeZone` field from the calendar metadata. This is the authoritative source. Store it for the rest of the session and use it for **every** calendar read AND write. Never default to `America/New_York` or any hardcoded timezone. If the calendar response doesn't include a timezone, ask the user directly — don't guess.
+4. **User identity** — As you gather context, infer the user's name, role, and company from their email signatures, calendar entries, and Slack profiles. No config file needed — the skill learns who you are from your data.
 
 ## Routing
 

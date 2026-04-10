@@ -50,7 +50,9 @@ Speed matters. Pull from every available source at the same time — do not go o
 - Search for meeting recaps with this person as a participant. Pull last 90 days.
 
 **Calendar:**
+- **First, detect the user's timezone** — pull `gcal_list_calendars` and read the `timeZone` field from the primary calendar. Use that timezone for every calendar query in this session. Never default to `America/New_York` or any hardcoded zone.
 - Search for past and upcoming meetings with this person. Pull meeting titles, dates, attendees, and descriptions.
+- When displaying times back to the user, always render them in their detected timezone — never in UTC or a wrong zone.
 
 ### Step 4: Organize the Output
 

@@ -10,10 +10,23 @@ Scan today's (or this week's) calendar for gaps between meetings. Propose deep w
 
 ## Workflow
 
+### Step 0: Detect Timezone (CRITICAL)
+
+Before reading or writing anything, pull the user's Google Calendar settings and extract the `timeZone` field. That's the authoritative source. Store it for the rest of the session.
+
+Every calendar read AND every calendar write in this skill MUST use that exact timezone. No exceptions.
+
+- **Never default to `America/New_York`** or any other hardcoded timezone.
+- **Never assume** the user's local timezone from their IP, their language, or the current UTC offset.
+- **Always pass the detected timezone explicitly** to `gcal_list_events`, `gcal_get_event`, `gcal_create_event`, and any related tool calls.
+- If the timezone isn't present in the calendar response, **stop and ask the user** rather than guessing.
+
+Misreading the timezone = deep work blocks anchored at the wrong real-world time. That's a silent failure that wastes the user's actual focus window.
+
 ### Step 1: Read Context
 
 1. Read `.coworker/index.md` — check Active Projects for deadlines and priorities
-2. Pull today's calendar via Google Calendar connector
+2. Pull today's calendar via Google Calendar connector **using the timezone from Step 0**
 3. Identify all gaps of 45+ minutes between meetings (shorter gaps aren't worth protecting)
 
 ### Step 2: Match Gaps to Work
@@ -46,11 +59,14 @@ User can:
 
 ### Step 4: Create Calendar Events
 
-For each approved block, create a Google Calendar event:
+For each approved block, create a Google Calendar event **using the timezone detected in Step 0**:
 - **Title:** "🔒 Deep Work: [project or label]"
 - **Description:** "Protected focus time. Created by Calendar Ninja."
+- **Timezone:** ALWAYS pass the timezone from Step 0 explicitly to `gcal_create_event`. Never omit the timezone parameter.
 - **Show as:** Busy (so others can't book over it)
 - **No notifications** — this is YOUR time, not a meeting to attend
+
+**Double-check before creating:** Print the event times in the user's local timezone before calling the create tool. If the times look wrong, stop and re-verify the timezone from Step 0.
 
 ### Step 5: Update Index
 
