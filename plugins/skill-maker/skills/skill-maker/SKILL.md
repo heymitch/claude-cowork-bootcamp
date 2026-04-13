@@ -1,7 +1,7 @@
 ---
 name: skill-maker
 description: Build any skill you need, forever. The meta-skill that designs, builds, tests, and packages custom agent skills. Say "build me a skill" or "create a skill" or "I need a skill that" or "test my skill" or "package my skill" or "what can skills do".
-user-invocable: false
+user-invocable: true
 ---
 
 # Skill Maker
@@ -26,13 +26,8 @@ Read `references/cowork-capabilities.md` and answer the user's question about wh
 ### "Test my skill" / "Check this skill" / "Validate my skill" / "Grade this skill"
 Run **skill-tester** on the specified skill directory.
 
-### "Package my skill" / "Ship my skill" / "Export my skill" / "Make this shareable"
-Run **skill-packager**. It picks the right format based on what the skill contains:
-- Single SKILL.md, no bundled files → **inline copy** (no packaging, just paste)
-- Single skill with references/scripts → **.skill file** (via `package_skill.py`)
-- 2+ skills for team distribution → **plugin bundle** (`.claude-plugin/` + skills/)
-
-Never default to plugin bundle for single personal skills — that's the most common packaging mistake.
+### "Package my skill" / "Zip my skill" / "Export as plugin"
+Run **skill-packager** to bundle into a .zip for Cowork.
 
 ### "Build references" / "Create reference docs" / "Write reference files"
 Run **reference-builder** for the specified skill architecture.

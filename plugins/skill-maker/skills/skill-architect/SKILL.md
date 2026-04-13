@@ -68,6 +68,35 @@ Show the full architecture plan:
 
 Ask: "Does this architecture look right? I'll start building once you approve."
 
+### Step 6: Write the SKILL.md Scaffold
+
+Before handing off to reference-builder, write the SKILL.md file with the required YAML frontmatter block at the top. **This is non-negotiable.** Cowork ignores any SKILL.md that doesn't start with valid frontmatter.
+
+Required format — exactly this structure, no exceptions:
+
+```markdown
+---
+name: [skill-folder-name]
+description: [what it does + trigger phrases. Say "X" or "Y" or "Z". Keep under 100 words — this is always in context and is what triggers the skill.]
+user-invocable: true
+---
+
+# [Skill Title]
+
+[body starts here]
+```
+
+Frontmatter rules:
+- `name` — must match the skill folder name exactly (lowercase, hyphens, no spaces)
+- `description` — include 3–5 natural language trigger phrases the user might say. Without these the skill won't fire on conversational prompts.
+- `user-invocable` — set `true` so the skill appears in `/` autocomplete. Only set `false` for router skills that hand off to sub-skills.
+- Triple-dash fence on both sides (`---`). No content before the opening `---`.
+
+Verify before handing off:
+1. The opening three dashes are on line 1, not preceded by a blank line or BOM.
+2. `name:` and `description:` keys are both present.
+3. The closing `---` is followed by a blank line and then the content.
+
 ## Rules
 - Never skip the interview — even if the user's first message is detailed, confirm the 5 answers
 - Always check feasibility before designing — don't plan skills around impossible capabilities
@@ -76,3 +105,4 @@ Ask: "Does this architecture look right? I'll start building once you approve."
 - Standard skills: plan for under 100 lines in SKILL.md
 - Tutor skills: plan for under 500 lines in SKILL.md, all content in references/
 - Always get approval before handing off to reference-builder
+- **NEVER hand off a SKILL.md without valid YAML frontmatter.** This has caused back-and-forth rework every time. The frontmatter is the skill's contract with Cowork — without it, nothing registers.
