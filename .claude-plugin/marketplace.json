@@ -171,6 +171,19 @@
         "building",
         "packaging"
       ]
+    },
+    {
+      "name": "dispatch-chain",
+      "source": "./plugins/dispatch-chain",
+      "description": "Author chain skills that fire from Dispatch (phone \u2192 desktop). Interviews you, scans local files, maps installed skills, delegates to Skill Maker. Session 5 plugin.",
+      "version": "1.0.0",
+      "category": "session",
+      "tags": [
+        "session-5",
+        "dispatch",
+        "chains",
+        "orchestration"
+      ]
     }
   ]
 }

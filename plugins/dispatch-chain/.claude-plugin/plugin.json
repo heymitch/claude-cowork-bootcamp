@@ -1,0 +1,16 @@
+{
+  "name": "dispatch-chain",
+  "version": "1.0.0",
+  "description": "Dispatch Chain — template for building chain skills that invoke other skills in a named order via Dispatch. Runs without stopping mid-sequence. Customize the ordered list and handoff rules for your chain; leave the never-stop contract as-is. Includes build-time local-file discovery and preflight skill mapping.",
+  "author": {
+    "name": "Mitch Harris"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "chain",
+    "dispatch",
+    "orchestrator",
+    "template",
+    "cowork"
+  ]
+}
